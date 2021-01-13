@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/signup.css">
+  <title>signup</title>
+</head>
+<body>
+  <div class="card">
+    <img src="/static/image/avatar.png">
+    <h2>Daftar</h2>
+    <form>
+      <p id="p">Nama</p>
+      <input class="nama" type="text" placeholder="masukan nama" required>
+      <p id="p">Email</p>
+      <input class="email"type='email' placeholder="masukan email" required>
+      <p id="pass">Password</p>
+      <input class="email"type='email' placeholder="masukan Password" required>
+      <button class="tombol" type="submit">Daftar</button>
+    </form>
+      <hr>
+      <p id="atau">Atau</p>
+      <a href="#"><button class="facebook"><span style="color:white">Daftar dengan Facebook</span></button></a>
+      <small>Dengan meng-klik tombol "Daftar" berarti anda menyetujui semua peraturan yang ana di botkode.id</small>
+    
+    <p id="kata">Sudah punya akun?<a href="{% url 'login' %}"> Masuk</a></p>
+    <!-- <div class="card-media">
+      <button class="facebook" type="submit">Daftar dengan Facebook</button>
+      <button class="Github" type="submit">Daftar dengan Github</button>
+      <button class="Google" type="submit">Daftar dengan Google</button>
+    </div> -->
+  </div>
+</body>
+</html>
