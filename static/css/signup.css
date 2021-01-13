@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(226, 223, 223);
+}
+.facebook{
+    background: #385499;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 13px;
+    margin-top: 10px;
+}
+.card{
+    padding: 20px;
+    box-shadow: 0 0 2px 0 black;
+    border-radius: 5px;
+    background: white;
+    width: 300px;
+    text-align: center;
+    margin: 6% auto 4%;
+}
+.nama, .email, .password{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.tombol{
+    margin-top: 20px;
+    width: 88%;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 20px;
+}
+small{
+    margin-top: 10px;
+}
+hr{
+    margin-top: 30px;
+    width: 80%;
+}
+#atau{
+    width: 30px;
+    padding: 10px;
+    background: white;
+    margin: -30px auto 0;
+}
+#p{
+    margin-bottom: 5px;
+    margin-bottom: -1px;
+    margin-right: 83%;
+}
+#pass{
+    margin-bottom: -1px;
+    margin-right: 75%;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 578px)
+{
+    .card
+    {
+        padding: 20px;
+        width: 250px !important;
+    }
+    #atau
+    {
+        padding: 8px;
+        font-size: 13px !important;
+        background: white;
+        margin: -28px auto 0;
+    }
+    small
+    {
+        font-size: 11px !important;
+    }
+    #kata, #kata a
+    {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px)
+{
+    .card
+    {
+        padding: 20px;
+        box-shadow: 0 0 2px 0 black;
+        border-radius: 5px;
+        background: white;
+        width: 450px;
+        text-align: center;
+        margin: 10% auto 4%;
+    }
+}

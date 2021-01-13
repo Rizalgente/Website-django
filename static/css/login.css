@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(20, 200, 255);
+}
+.login-card{
+    border-radius: 5px;
+    width: 300px;
+    background-color: white;
+    margin: 8% auto 0;
+    padding: 20px;
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
+    text-align: center;
+}
+img{
+    padding: 40px;
+    border-radius: 60px;
+    background: rgb(243, 243, 243);
+    margin-top: -75px;
+}
+.login h2{
+    font-size: 30px;
+    color: rgb(66, 110, 245);
+}
+.input-box{
+    width: 90%;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: 1px solid #999;
+    outline: none;
+    padding: 10px;
+}
+.button-login{
+    padding: 10px;
+    /* height: 40px; */
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background: #21afde;
+    color: white;
+    margin-bottom: 10px;
+}
+.check{
+    text-align: start;
+    margin-left: 10px;
+}
+hr{
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+}
+.atau{
+    background-color: white;
+    width: 40px;
+    margin: -19px auto 0;
+}
+.login-media{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: rgb(14, 14, 248);
+    color: white;
+}
+.login-media i{
+    width: 20px;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 768px)
+{
+    .login-card
+    {
+        width: 250px;
+        margin: 20% auto 0;
+    }
+    img
+    {
+        padding: 20px;
+    }
+}
+@media (max-width: 360px)
+{
+    .login-card
+    {
+        width: 250px;
+        margin: 20% auto 0;
+    }
+    img
+    {
+        padding: 20px;
+    }
+    #p
+    {
+        font-size: 13px;
+    }
+    #p a
+    {
+        font-size: 13px;
+    }
+    .check
+    {
+        font-size: 13px;
+    }
+    .atau
+    {
+        font-size: 13px;
+    }
+}
+
+
+
+
